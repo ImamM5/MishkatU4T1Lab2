@@ -31,7 +31,7 @@ public class WhileLoopFunRunner
         System.out.println(fun.maxDoubles(8, 5));
         System.out.println(fun.maxDoubles(10, 456000));
 
-/*        System.out.println("-- test isPrime --");
+        System.out.println("-- test isPrime --");
         System.out.println(fun.isPrime(2));
         System.out.println(fun.isPrime(13));
         System.out.println(fun.isPrime(773));
@@ -42,6 +42,6 @@ public class WhileLoopFunRunner
         System.out.println(fun.isPrime(30));
         System.out.println(fun.isPrime(771));
         System.out.println(fun.isPrime(93243));
-*/
+
     }
 }

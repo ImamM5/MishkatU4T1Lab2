@@ -102,6 +102,21 @@ public class WhileLoopFun {
  */
     public boolean isPrime(int number)
     {
+        if (number ==1)
+        {
+            return false;
+        }
+
+        int numCounter = 2;
+        while (numCounter < number)
+        {
+            if (number % numCounter == 0)
+            {
+                return false;
+            }
+            numCounter++;
+        }
+        return true;
 
     }
 
